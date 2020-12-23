@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(253, 253, 253);
+
+    .container {
+        width: 95vw;
+    }
+
+    .card {
+        -webkit-box-shadow: -5px -3px 15px -3px #000000;
+        box-shadow: -5px -3px 15px -3px #000000;
+        border-radius: 10px;
+        background-color: white;
+        float: left;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-left: #5b4be9 solid 5px ;
+
+
+        img {
+            margin-top: 10px;
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            -webkit-box-shadow: -5px 3px 23px -2px #000000;
+            box-shadow: -5px 3px 23px -2px #000000;
+
+        }
+    }
+
+}
